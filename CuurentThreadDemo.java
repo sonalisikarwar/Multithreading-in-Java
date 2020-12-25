@@ -2,7 +2,7 @@
 package shivaafoundation.javatutorial;
 
 
-public class CuurentThreadDemo {
+class CuurentThreadDemo {
     public static void main(String args[]){
         Thread t = Thread.currentThread();
         System.out.println("Current thread: "+t);
